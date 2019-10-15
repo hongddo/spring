@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="login">
+	<insert id="insertUser" parameterType="ojt.cmmn.model.LoginModel">
+		<![CDATA[
+			insert into users(email,password,name,grade)values(#{email},#{password},#{name},#{grade})
+		]]>
+	</insert>
+	
+	<select id="selectUser" parameterType="java.lang.String" resultType="ojt.cmmn.model.LoginModel">
+		<![CDATA[
+			select email,password,name,grade from users where email = #{email}
+		]]>
+	</select>
+</mapper>

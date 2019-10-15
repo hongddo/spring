@@ -1,0 +1,9 @@
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/sftth.prod.com/js/crypto/jsbn/core/jsbn.js"></script>
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/sftth.prod.com/js/crypto/jsbn/core/jsbn2.js"></script>
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/sftth.prod.com/js/crypto/jsbn/util/prng4.js"></script>
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/sftth.prod.com/js/crypto/jsbn/util/rng.js"></script>
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/sftth.prod.com/js/crypto/jsbn/rsa/rsa.js"></script>
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/sftth.prod.com/js/crypto/jsbn/rsa/rsa2.js"></script>
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/sftth.prod.com/js/crypto/jsbn/util/base64.js"></script>
+
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/sftth.prod.com/js/crypto/crypto.js"></script>
