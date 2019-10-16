@@ -36,8 +36,8 @@
 	
 	
 	<target name="web_deploy">
-		<!--sshexec host="13.125.206.247" username="ec2-user" password="" command="-i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no rm -rf /sorc001/applications/htdocs; mkdir /sorc001/applications/hdocs" trust="true" /-->
-		<scp localfile="${web.tar.directory}/${project_name}.tar" todir="ec2-user@$13.125.206.247:/sorc001/applications/hdocs" trust="true" />
+		<sshexec host="13.125.206.247" username="ec2-user" password="" command="-i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no ec2-user@13.125.206.247 rm -rf /sorc001/applications/htdocs; mkdir /sorc001/applications/hdocs" trust="true" />
+		<!-- scp localfile="${web.tar.directory}/${project_name}.tar" todir="ec2-user@$13.125.206.247:/sorc001/applications/hdocs" trust="true" / -->
 		<!-- sshexec host="13.125.206.247" username="ec2-user" password="" command="-i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no tar xvf /sorc001/applications/htdocs/${project_name}.tar -C /sorc001/applications/htdocs; rm -rf /sorc001/applications/htdocs/${project_name}.tar" trust="true" /-->
 	</target>
 	
