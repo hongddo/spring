@@ -33,8 +33,19 @@
 			</fileset>	
 		</war>
 	</target>
+	
+		<target name="web_deploy">
+				<copy file="${web.tar.dir}/${project_name}.tar" tofile="/sorc001/appadm/ciserv/htddocs/${project_name}.war" overwrite="true" />
+			</target>
+			
+			<target name="was_deploy">
+				<copy file="${was.war.dir}/${project_name}.war" tofile="/sorc001/appadm/ciserv/${project_name}.war" overwrite="true" />
+			</target>
+	
 	<target name="build_all">
 		<antcall target="web.tar" />
 		<antcall target="was.war" />
+		<antcall target="web_deploy" />
+		<antcall target="was_deploy" />
 	</target>
 </project>
