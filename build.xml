@@ -22,7 +22,7 @@
 			</tarfileset>	
 		</tar>
 	</target>
-	<!--2. Was Packaging -->
+	<!--2. Was Packaging  -->
 	<target name="was.war">
 		<delete dir="${was.tar.directory}" />
 		<mkdir dir="${was.tar.directory}" />
