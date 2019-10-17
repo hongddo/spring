@@ -36,7 +36,7 @@
 	
 	
 	<target name="web_deploy">
-		<sshexec host="54.180.105.45" username="ec2-user" password="" command="-i /home/ec2-user/double_was.pem@13.125.206.247 -o StrictHostKeyChecking=no rm -rf /sorc001/applications/htdocs; mkdir /sorc001/applications/hdocs" trust="true" />
+		<sshexec host="54.180.105.45" username="ec2-user" password="" command="mkdir /sorc001/testing" trust="true" />
 	</target>
 	
 	<target name="build_all">
