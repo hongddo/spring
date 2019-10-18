@@ -36,7 +36,7 @@
 	
 	
 	<target name="web_deploy">
-		<sshexec keyfile="/home/ec2-user/double_was.pem" host="54.180.105.45" username="ec2-user" password="" command="mkdir /sorc001/testing" trust="true" />
+		<sshexec host="54.180.105.45" username="ec2-user" password="" command="mkdir /sorc001/testing" trust="true" verbose="true"	failonerror="true" port="22" />
 	</target>
 	
 	<target name="build_all">
