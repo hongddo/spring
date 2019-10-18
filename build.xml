@@ -36,7 +36,7 @@
 	 
 	
 	<target name="web_deploy">
-		<sshexec host="http://54.180.105.45"
+		<sshexec host="54.180.105.45"
 			username="ec2-user" 
 			password="" 
 			keyfile="/home/ec2-user/double_was"
