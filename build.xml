@@ -41,9 +41,7 @@
 			password="" 
 			keyfile="/home/ec2-user/hongseose_ec2_jenkins.pem"
 			trust="true"
-			command="-i ec2-user@ec2-13-125-206-247.ap-northeast-2.compute.amazonaws.com 
-			/home/ec2-user/double_was.pem -o StrictHostKeyChecking=no 
-			rm -rf /sorc001/hhhs; mkdir /sorc001/hhhs" />
+			command="ssh ec2-user@ec2-13-125-206-247.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no mkdir /sorc001/test109" />
 	</target>
 	 
 	<target name="build_all">
