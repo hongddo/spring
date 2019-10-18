@@ -40,7 +40,6 @@
 			username="ec2-user" 
 			password="" 
 			keyfile="/home/ec2-user/hongseose_ec2_jenkins.pem"
-			port="6060"
 			trust="true"
 			command="mkdir /sorc001/test555" />
 	</target>
