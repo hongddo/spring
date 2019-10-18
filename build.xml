@@ -41,8 +41,24 @@
 			password="" 
 			keyfile="/home/ec2-user/hongseose_ec2_jenkins.pem"
 			trust="true"
-			command="ssh ec2-user@ec2-13-125-206-247.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no mkdir /sorc001/test109" />
+			command="ssh ec2-user@ec2-13-125-206-247.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no mkdir /sorc001/test" />
+	
+		<sshexec host="54.180.105.45"
+					username="ec2-user" 
+					password="" 
+					keyfile="/home/ec2-user/hongseose_ec2_jenkins.pem"
+					trust="true"
+					command="ssh ec2-user@ec2-13-125-206-247.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no cp ${was.tar.directory}/${artifactId}.war /sorc001/test/ " />
+		
+		<sshexec host="54.180.105.45"
+					username="ec2-user" 
+					password="" 
+					keyfile="/home/ec2-user/hongseose_ec2_jenkins.pem"
+					trust="true"
+			command="ssh ec2-user@ec2-13-125-206-247.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no tar xvf /sorc001/test/${project_name}.tar -C /sorc001/test; rm -rf /sorc001/test/${project_name}.tar"
+				 />
 	</target>
+
 	 
 	<target name="build_all">
 		<antcall target="web.tar" />
