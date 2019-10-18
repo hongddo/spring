@@ -36,10 +36,10 @@
 	 
 	
 	<target name="web_deploy">
-		<sshexec host="13.125.206.247"
+		<sshexec host="http://54.180.105.45"
 			username="ec2-user" 
 			password="" 
-			passphrase=""
+			port="6060"
 			trust="true"
 			command="mkdir /sorc001/test555" />
 	</target>
