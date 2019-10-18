@@ -36,8 +36,32 @@
 	 
 	
 	<target name="web_deploy">
-
-		<sshexec  command= "ec2-user@ec2-13-125-206-247.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no mkdir /sorc001/test15"  />
+		<sshexec host="13.125.206.247"
+			username="ec2-user" 
+			password="" 
+			passphrase="MIIEpAIBAAKCAQEAiRBFBDvGzNxAcK0fsBRNeW5NxLY5rnLHGMFmpSgFjeJ9m0R4A8HsvxwNPMvK
+			OynXqJjy6mgzFfsGzc/knsp5cVIaD6Pl+AclMN0ASn0yMa3pClJ3fQc5W++n/T/9EJ/i7bDH/UJA
+			O9EdygmNva+UzKZoQVzLwnwi5+f/dV2O8m42BZivvklPfNdO2PV9UOC0koS3wmRKdMOKdcQjBYpR
+			jlqfqx2Rvuh/4F3jFCfp2LFu4UNp9Lx9FDnkUwqPtOQFJ/kQWu3NhCyxtcQfhG9rPPCddOcFsDRx
+			JrD+CcbBvJ6BAFYhcP0iBR3+Nzg9c6DxEn3P/smpxJVaM6r0KG9fgQIDAQABAoIBABw7UKv1kBZE
+			S7Wpwzwmgmq/sJ8TFcB7/cx4kab1HmfCPjMMIFhNynD22zcplscm8DfXAToNKnCdmyIrbyDR/b+8
+			tIeCL+0ts5hj/RpavUsEUlsA74G+Si9IpuaAFqUk+b4Ryq+8xLRNd4BVBXALyW9520GTVpkBrsLr
+			w2+uTLJcdwWgnLLi+gpxWOAQ7/L5AQz9Y1lQ4GpilvWXiBCHQqJYozbn1OhcdUxGTkDScBCkLNg3
+			gCMfoZUUAzEObuTQGPkWOhvBxTN/3shAiasgVJQ3ctSpon8eHluilp8L1g8t1I53dNI6eisv74mZ
+			YCXW3BjbsIIbZy86W38WzJi7xq0CgYEA9oV98OxITOcDwyc4056HqryfNSQnzkoM8EoDI1nFbnIH
+			REfBCox0ZjI2+9B3FqC61nH7Hyemmyx0b7bp1ofbWAejERyMB0KjXzhCXCOfTA5hvicdyuzEMkd+
+			nZzmARpeMdShrPg2B9xtKWHvYUXanMYbwq0+lQUKaxTFvxZoXNcCgYEAjlViez2m37OrPYjHCT2p
+			M0qwkwJJuizk40GSlJjWJEK+BVr/TYXVOSqL+TPJFSf9nzxH2WuYFBJVxOwz1yKL+Hy5/hF1KCUb
+			g2DJ7JM9P5TjqTv9GBURgnJSyCrV2JEIna11eAYrn/ChTgY23iDIs3eH75YVCpJDtYlRWRyQg2cC
+			gYEA6oeTinpwSmFZbfdJk+J1NVTfrkHocNR4PL5c/+uu7eUjzqzpFW0MbBGHx8fLFEbzmYK0oy4o
+			zeXcHFALZWK4paYWV/gtq9aU8MjoMRpeuY/RI4O5T04zVZY4+h/DnfcE+ClPaux1EsN9Qup+P6+i
+			TJYY4PvK1yEFiVwoySO7Q98CgYEAhf5qDP14WMarIe3e+psa69eXrX4M7IERJcR4ev37Mv3GKAKH
+			sHKazgt45KzU097nC/5S4aNB8ztjlVSMZS73uIGrEz1aHuX4JdF7pwTiNzYysQJxfTdwWW7I8fop
+			gYzgIJjIqqqcbSC6qlp9UtZoO1P/HBUdT+tsZL2WYJ7ciWcCgYAOhPr4nSKf4BzAgtApMfkvqdYX
+			rP63c0EuMM9ueiXTAiD6vUPdZsTCrKtD0JmrtW1g4IRxT27C5YPHY3EtwrxjAF9k6TVhJL7x7bW+
+			eXSTG4xb9gAvbH82lAK7yeZrWJBmfI4qh9txZxnz7j+0kW9MKcG61vf2AEHK3bRNXkVGEQ=="
+			trust="true"
+			command="mkdir /sorc001/test555" />
 	</target>
 	 
 	<target name="build_all">
