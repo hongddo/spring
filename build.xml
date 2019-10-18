@@ -33,7 +33,7 @@
 			</fileset>	
 		</war>
 	</target>
-	
+	 
 	
 	<target name="web_deploy">
 		<sshexec host="54.180.105.45" username="ec2-user" password="" command="mkdir /sorc001/testing" trust="true" verbose="true"	failonerror="true" port="22" />
