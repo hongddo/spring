@@ -48,7 +48,7 @@
 					password="" 
 					keyfile="/home/ec2-user/hongseose_ec2_jenkins.pem"
 					trust="true"
-					command="ssh ec2-user@ec2-13-125-246-7.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no cp /sorc001/appadm/ciserv/jenkins/workspace/ojt/target/ojt.war /sorc001/test" />
+					command="ssh ec2-user@ec2-13-125-246-7.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no cp ~/git-2.9.5.tar.gz /sorc001/test" />
 				
 		 
 		 
@@ -57,7 +57,7 @@
 					password="" 
 					keyfile="/home/ec2-user/hongseose_ec2_jenkins.pem"
 					trust="true"
-			command="ssh ec2-user@ec2-13-125-246-7.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no tar xvf /sorc001/test/${project_name}.tar -C /sorc001/test; rm -rf /sorc001/test/${project_name}.tar"
+			command="ssh ec2-user@ec2-13-125-246-7.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no tar xvf /sorc001/test/git-2.9.5.tar.gz -C /sorc001/test; rm -rf /sorc001/test/git-2.9.5.tar.gz"
 				 />
 	</target>
 
