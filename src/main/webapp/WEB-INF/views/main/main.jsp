@@ -10,15 +10,15 @@
  
 <html>
 	<head>
-  		<title>This is Sftth's Demo</title>
-  		<script src="./js/jquery-3.3.1.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
+  		<title>hongseo's exchange</title>
+  		<script src="/js/jquery-3.3.1.min.js"></script>
+		<script src="/js/bootstrap.js"></script>
   		
-		<link rel='stylesheet' id='buttons-css'      href='./css/wp-includes/buttons.min.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='dashicons-css'    href='./css/wp-includes/dashicons.min.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='media-views-css'  href='./css/wp-includes/media-views.min.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='media-views-css'  href='./css/wp-includes/themes/style.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='dokan-skin-css'   href='./css/wp-includes/themes/purple.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='buttons-css'      href='/css/wp-includes/buttons.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='dashicons-css'    href='/css/wp-includes/dashicons.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='media-views-css'  href='/css/wp-includes/media-views.min.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='media-views-css'  href='/css/wp-includes/themes/style.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='dokan-skin-css'   href='/css/wp-includes/themes/purple.css' type='text/css' media='all' />
 	</head>
 	<body class="home blog woocommerce dokan-theme-dokan">
 		<nav class="navbar navbar-expand-lg navbar-light">
