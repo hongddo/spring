@@ -41,7 +41,7 @@
 			password="" 
 			keyfile="/home/ec2-user/hongseose_ec2_jenkins.pem"
 			trust="true"
-			command="ssh ec2-user@ec2-13-125-246-7.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no mkdir /sorc001/test" />
+			command="ssh ec2-user@ec2-13-125-246-7.ap-northeast-2.compute.amazonaws.com -i /home/ec2-user/double_was.pem -o StrictHostKeyChecking=no rm -rf /sorc001/test mkdir /sorc001/test" />
 		
 		<sshexec host="54.180.105.45"
 					username="ec2-user" 
